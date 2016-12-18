@@ -42,10 +42,13 @@ gem 'spring',        group: :development
 #Api gems
 gem 'active_model_serializers'
 
-group :test do
-  gem "rspec-rails", "~> 2.14"
+group :development, :test do
   gem "factory_girl_rails"
   gem "ffaker"
+end
+
+group :test do
+  gem "rspec-rails", "~> 2.14"
   gem "shoulda-matchers"
 end
 
