@@ -52,7 +52,7 @@ GEM
     coffee-script (2.4.1)
       coffee-script-source
       execjs
-    coffee-script-source (1.11.1)
+    coffee-script-source (1.12.2)
     compass (0.12.7)
       chunky_png (~> 1.2)
       fssm (>= 0.2.7)
@@ -72,10 +72,10 @@ GEM
       mail (~> 2.6.3)
     erubis (2.7.0)
     execjs (2.7.0)
-    factory_girl (4.7.0)
+    factory_girl (4.8.0)
       activesupport (>= 3.0.0)
-    factory_girl_rails (4.7.0)
-      factory_girl (~> 4.7.0)
+    factory_girl_rails (4.8.0)
+      factory_girl (~> 4.8.0)
       railties (>= 3.0.0)
     ffaker (2.3.0)
     font-awesome-rails (4.7.0.1)
@@ -97,6 +97,9 @@ GEM
     json (1.8.3)
     jsonapi (0.1.1.beta2)
       json (~> 1.8)
+    kaminari (0.17.0)
+      actionpack (>= 3.0.0)
+      activesupport (>= 3.0.0)
     launchy (2.4.3)
       addressable (~> 2.3)
     mail (2.6.4)
@@ -131,7 +134,7 @@ GEM
     rdoc (4.3.0)
     responders (1.1.2)
       railties (>= 3.2, < 4.2)
-    rspec-collection_matchers (1.1.2)
+    rspec-collection_matchers (1.1.3)
       rspec-expectations (>= 2.99.0.beta1)
     rspec-core (2.99.2)
     rspec-expectations (2.99.2)
@@ -195,6 +198,7 @@ DEPENDENCIES
   font-awesome-rails
   furatto
   jquery-rails
+  kaminari
   rails (= 4.1.6)
   rspec-rails (~> 2.14)
   sabisu_rails!
